@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Medium.ttf">
+            <string>Poppins-Medium</string>
+        </array>
+        <array key="Raleway-VariableFont_wght.ttf">
+            <string>RalewayRoman-Bold</string>
+            <string>RalewayRoman-Medium</string>
+            <string>RalewayRoman-Regular</string>
+            <string>RalewayRoman-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SmartWatchDesign" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="256" translatesAutoresizingMaskIntoConstraints="NO" id="dCu-Js-Fld">
+                                <rect key="frame" x="20" y="59" width="390" height="34.333333333333343"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yc4-33-JQI">
+                                        <rect key="frame" x="0.0" y="0.0" width="67" height="34.333333333333336"/>
+                                        <color key="tintColor" name="secondary"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="arrow.backward" catalog="system"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h6d-Hw-eMa">
+                                        <rect key="frame" x="323" y="0.0" width="67" height="34.333333333333336"/>
+                                        <color key="tintColor" name="secondary"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="suit.heart" catalog="system"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cPt-cM-LBo">
+                                <rect key="frame" x="0.0" y="393" width="430" height="539"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="Nen-Yl-iSR">
+                                        <rect key="frame" x="20" y="20" width="211.33333333333334" height="41"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Apple Watch Series 7" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="FRb-aM-PJv">
+                                                <rect key="frame" x="0.0" y="0.0" width="211.33333333333334" height="23.666666666666668"/>
+                                                <fontDescription key="fontDescription" name="RalewayRoman-Bold" family="Raleway" pointSize="20"/>
+                                                <color key="textColor" name="secondary"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(With solo loop)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="as4-LD-drN">
+                                                <rect key="frame" x="0.0" y="26.666666666666682" width="87" height="14.333333333333332"/>
+                                                <fontDescription key="fontDescription" name="RalewayRoman-Regular" family="Raleway" pointSize="12"/>
+                                                <color key="textColor" name="accent2"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$799" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="877-6F-2K9">
+                                        <rect key="frame" x="347.66666666666669" y="23.666666666666682" width="62.333333333333314" height="33.666666666666657"/>
+                                        <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="24"/>
+                                        <color key="textColor" name="primary"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Colors" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wQ1-IN-hai">
+                                        <rect key="frame" x="20" y="71" width="49" height="19"/>
+                                        <fontDescription key="fontDescription" name="RalewayRoman-SemiBold" family="Raleway" pointSize="16"/>
+                                        <color key="textColor" name="secondary"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="AOg-zO-hRn">
+                                        <rect key="frame" x="20" y="95" width="390" height="34.333333333333343"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dSj-4q-ymC">
+                                                <rect key="frame" x="0.0" y="0.0" width="100.66666666666667" height="34.333333333333336"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" systemColor="systemCyanColor"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="circlebadge.fill" catalog="system"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="1"/>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="maviButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VlD-5T-mBt"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vgM-tf-tLb">
+                                                <rect key="frame" x="144.66666666666666" y="0.0" width="100.66666666666666" height="34.333333333333336"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="circlebadge.fill" catalog="system"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="1"/>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="siyahButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AYe-Hq-Ke4"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cml-Y0-yt3">
+                                                <rect key="frame" x="289.33333333333331" y="0.0" width="100.66666666666669" height="34.333333333333336"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="circlebadge.fill" catalog="system"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="1"/>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="beyazButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0QU-pG-o5G"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ysj-xy-Nks">
+                                        <rect key="frame" x="19.999999999999996" y="139.33333333333337" width="51.666666666666657" height="19"/>
+                                        <fontDescription key="fontDescription" name="RalewayRoman-Medium" family="Raleway" pointSize="16"/>
+                                        <color key="textColor" name="primary"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="HyS-Zv-7Cp">
+                                        <rect key="frame" x="20" y="163.33333333333337" width="390" height="49.333333333333343"/>
+                                        <string key="text">The aluminium case is lightweight and made
+from 100 percent recycled aerospace
+grade alloy.</string>
+                                        <fontDescription key="fontDescription" name="RalewayRoman-Regular" family="Raleway" pointSize="14"/>
+                                        <color key="textColor" name="accent2"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MmQ-l0-MxF">
+                                        <rect key="frame" x="20" y="443.66666666666663" width="390" height="65.333333333333314"/>
+                                        <color key="backgroundColor" red="0.35686274509803922" green="0.25490196078431371" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Add to cart">
+                                            <fontDescription key="titleFontDescription" name="RalewayRoman-Bold" family="Raleway" pointSize="20"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="MmQ-l0-MxF" secondAttribute="trailing" constant="20" id="2Un-1t-WF3"/>
+                                    <constraint firstItem="MmQ-l0-MxF" firstAttribute="leading" secondItem="cPt-cM-LBo" secondAttribute="leading" constant="20" id="BKx-YW-nRG"/>
+                                    <constraint firstItem="wQ1-IN-hai" firstAttribute="top" secondItem="Nen-Yl-iSR" secondAttribute="bottom" constant="10" id="DZC-Pj-9XQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="AOg-zO-hRn" secondAttribute="trailing" constant="20" id="GZY-Em-VrX"/>
+                                    <constraint firstItem="HyS-Zv-7Cp" firstAttribute="leading" secondItem="cPt-cM-LBo" secondAttribute="leading" constant="20" id="KBH-9T-68M"/>
+                                    <constraint firstItem="AOg-zO-hRn" firstAttribute="leading" secondItem="cPt-cM-LBo" secondAttribute="leading" constant="20" id="LOC-Pk-cC9"/>
+                                    <constraint firstAttribute="trailing" secondItem="HyS-Zv-7Cp" secondAttribute="trailing" constant="20" id="MXW-uv-qs1"/>
+                                    <constraint firstItem="Nen-Yl-iSR" firstAttribute="leading" secondItem="cPt-cM-LBo" secondAttribute="leading" constant="20" id="Vbz-zj-vSy"/>
+                                    <constraint firstItem="Nen-Yl-iSR" firstAttribute="top" secondItem="cPt-cM-LBo" secondAttribute="top" constant="20" id="Z0P-6J-OIq"/>
+                                    <constraint firstAttribute="trailing" secondItem="877-6F-2K9" secondAttribute="trailing" constant="20" id="cFZ-2B-9wy"/>
+                                    <constraint firstItem="Ysj-xy-Nks" firstAttribute="top" secondItem="AOg-zO-hRn" secondAttribute="bottom" constant="10" id="cau-LH-ryc"/>
+                                    <constraint firstItem="Ysj-xy-Nks" firstAttribute="leading" secondItem="cPt-cM-LBo" secondAttribute="leading" constant="20" id="fsz-x5-oEf"/>
+                                    <constraint firstItem="AOg-zO-hRn" firstAttribute="top" secondItem="wQ1-IN-hai" secondAttribute="bottom" constant="5" id="gj4-A7-GzS"/>
+                                    <constraint firstItem="wQ1-IN-hai" firstAttribute="leading" secondItem="cPt-cM-LBo" secondAttribute="leading" constant="20" id="hf9-BD-Yoh"/>
+                                    <constraint firstItem="HyS-Zv-7Cp" firstAttribute="top" secondItem="Ysj-xy-Nks" secondAttribute="bottom" constant="5" id="nAM-N0-f1g"/>
+                                    <constraint firstAttribute="bottom" secondItem="MmQ-l0-MxF" secondAttribute="bottom" constant="30" id="rip-8K-b6G"/>
+                                    <constraint firstItem="877-6F-2K9" firstAttribute="centerY" secondItem="Nen-Yl-iSR" secondAttribute="centerY" id="t2t-k4-ByR"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="maviSaat1" translatesAutoresizingMaskIntoConstraints="NO" id="A29-2l-v0D">
+                                <rect key="frame" x="64.666666666666686" y="103.33333333333334" width="301.00000000000006" height="279.66666666666663"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.84705882352941175" green="0.85882352941176465" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="877-6F-2K9" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.144928" id="7MS-pz-3n4"/>
+                            <constraint firstItem="FRb-aM-PJv" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.491546" id="8wT-Wm-vtC"/>
+                            <constraint firstItem="A29-2l-v0D" firstAttribute="top" secondItem="dCu-Js-Fld" secondAttribute="bottom" constant="10" id="CWp-pe-CgL"/>
+                            <constraint firstItem="A29-2l-v0D" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.3" id="NnP-f6-Nkg"/>
+                            <constraint firstItem="dCu-Js-Fld" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="OdA-zO-ops"/>
+                            <constraint firstItem="cPt-cM-LBo" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Ojs-Rc-Glz"/>
+                            <constraint firstItem="cPt-cM-LBo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Rc5-te-G9e"/>
+                            <constraint firstItem="A29-2l-v0D" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.7" id="VIe-mP-ucL"/>
+                            <constraint firstItem="cPt-cM-LBo" firstAttribute="top" secondItem="A29-2l-v0D" secondAttribute="bottom" constant="10" id="Wq9-CR-3hi"/>
+                            <constraint firstItem="MmQ-l0-MxF" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.07" id="YVh-tc-1qe"/>
+                            <constraint firstAttribute="bottom" secondItem="cPt-cM-LBo" secondAttribute="bottom" id="cYJ-S0-oOa"/>
+                            <constraint firstItem="A29-2l-v0D" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="g2k-MZ-kFn"/>
+                            <constraint firstItem="dCu-Js-Fld" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="rGK-Aa-LET"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dCu-Js-Fld" secondAttribute="trailing" constant="20" id="ujX-Ce-ibZ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="saatImage" destination="A29-2l-v0D" id="ddD-wN-f26"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34.782608695652179" y="2.0089285714285712"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrow.backward" catalog="system" width="128" height="95"/>
+        <image name="circlebadge.fill" catalog="system" width="128" height="122"/>
+        <image name="maviSaat1" width="300" height="300"/>
+        <image name="suit.heart" catalog="system" width="128" height="107"/>
+        <namedColor name="accent2">
+            <color red="0.61960784313725492" green="0.62352941176470589" blue="0.63921568627450975" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="primary">
+            <color red="0.35686274509803922" green="0.25490196078431371" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="secondary">
+            <color red="0.10588235294117647" green="0.082352941176470587" blue="0.23921568627450981" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemCyanColor">
+            <color red="0.19607843137254902" green="0.67843137254901964" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

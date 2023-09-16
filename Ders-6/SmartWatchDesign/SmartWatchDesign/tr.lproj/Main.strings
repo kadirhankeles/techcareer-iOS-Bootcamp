@@ -1,0 +1,39 @@
+
+/* Class = "UILabel"; text = "$799"; ObjectID = "877-6F-2K9"; */
+"877-6F-2K9.text" = "21.435₺";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Cml-Y0-yt3"; */
+"Cml-Y0-yt3.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Apple Watch Series 7"; ObjectID = "FRb-aM-PJv"; */
+"FRb-aM-PJv.text" = "Apple Watch Series 7";
+
+/* Class = "UILabel"; text = "The aluminium case is lightweight and made\nfrom 100 percent recycled aerospace\ngrade alloy."; ObjectID = "HyS-Zv-7Cp"; */
+"HyS-Zv-7Cp.text" = "Alüminyum kasa hafiftir ve yüzde 100 geri dönüştürülmüş havacılık ve uzay sınıfı alaşımdan üretilmiştir.";
+
+/* Class = "UIButton"; configuration.title = "Add to cart"; ObjectID = "MmQ-l0-MxF"; */
+"MmQ-l0-MxF.configuration.title" = "Add to cart";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "MmQ-l0-MxF"; */
+"MmQ-l0-MxF.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Details"; ObjectID = "Ysj-xy-Nks"; */
+"Ysj-xy-Nks.text" = "Detaylar";
+
+/* Class = "UILabel"; text = "(With solo loop)"; ObjectID = "as4-LD-drN"; */
+"as4-LD-drN.text" = "(Solo loop ile)";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "dSj-4q-ymC"; */
+"dSj-4q-ymC.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "h6d-Hw-eMa"; */
+"h6d-Hw-eMa.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "vgM-tf-tLb"; */
+"vgM-tf-tLb.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Colors"; ObjectID = "wQ1-IN-hai"; */
+"wQ1-IN-hai.text" = "Renkler";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "yc4-33-JQI"; */
+"yc4-33-JQI.normalTitle" = "Button";
