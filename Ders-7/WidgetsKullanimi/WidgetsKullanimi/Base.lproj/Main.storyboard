@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WidgetsKullanimi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f5n-Eg-Qt8">
+                                <rect key="frame" x="176" y="75" width="41.333333333333343" height="20.333333333333329"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Veri Giriniz" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X5h-Fj-gze">
+                                <rect key="frame" x="50" y="111.33333333333331" width="293" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9QN-aS-O2B">
+                                <rect key="frame" x="166.66666666666666" y="161.33333333333334" width="59.666666666666657" height="34.333333333333343"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="OKU"/>
+                                <connections>
+                                    <action selector="buttonOku:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NJD-tV-j28"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mutlu-resim" translatesAutoresizingMaskIntoConstraints="NO" id="av4-sv-PGo">
+                                <rect key="frame" x="160.66666666666666" y="211.66666666666666" width="72" height="71.999999999999972"/>
+                                <color key="tintColor" systemColor="systemIndigoColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="72" id="lhn-Nj-g52"/>
+                                    <constraint firstAttribute="height" constant="72" id="lvX-K6-6Tm"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="z3M-CI-htm">
+                                <rect key="frame" x="98.000000000000014" y="299.66666666666669" width="197.33333333333337" height="34.333333333333314"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5fP-ke-f9Q">
+                                        <rect key="frame" x="0.0" y="0.0" width="73.666666666666671" height="34.333333333333336"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Mutlu"/>
+                                        <connections>
+                                            <action selector="buttonMutlu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lnZ-Q4-zQM"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tAf-wh-7v7">
+                                        <rect key="frame" x="123.66666666666666" y="0.0" width="73.666666666666657" height="34.333333333333336"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Üzgün"/>
+                                        <connections>
+                                            <action selector="buttonUzgun:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aRV-IA-ogK"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jHm-4l-PQk">
+                                <rect key="frame" x="172" y="350" width="51" height="31"/>
+                                <connections>
+                                    <action selector="switchDegisim:" destination="BYZ-38-t0r" eventType="valueChanged" id="L0E-7A-h08"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="60g-gf-WTW">
+                                <rect key="frame" x="176" y="397" width="41.333333333333343" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QGT-PR-85p">
+                                <rect key="frame" x="159" y="767.66666666666663" width="75" height="34.333333333333371"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <connections>
+                                    <action selector="buttonGoster:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RUh-IB-JZT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="f5n-Eg-Qt8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="199-a5-SC0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="QGT-PR-85p" secondAttribute="bottom" constant="16" id="2in-jX-vhG"/>
+                            <constraint firstItem="60g-gf-WTW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BNb-UT-PPd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="X5h-Fj-gze" secondAttribute="trailing" constant="50" id="COz-mJ-qPy"/>
+                            <constraint firstItem="jHm-4l-PQk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GkR-Yg-ErO"/>
+                            <constraint firstItem="av4-sv-PGo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="I0g-6O-vPp"/>
+                            <constraint firstItem="9QN-aS-O2B" firstAttribute="top" secondItem="X5h-Fj-gze" secondAttribute="bottom" constant="16" id="JYb-NC-xhx"/>
+                            <constraint firstItem="z3M-CI-htm" firstAttribute="top" secondItem="av4-sv-PGo" secondAttribute="bottom" constant="16" id="L0E-6C-zuK"/>
+                            <constraint firstItem="av4-sv-PGo" firstAttribute="top" secondItem="9QN-aS-O2B" secondAttribute="bottom" constant="16" id="SFs-Se-nc4"/>
+                            <constraint firstItem="X5h-Fj-gze" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="TnB-u7-lJS"/>
+                            <constraint firstItem="9QN-aS-O2B" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zaa-SR-CZL"/>
+                            <constraint firstItem="QGT-PR-85p" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cy3-gD-Mk4"/>
+                            <constraint firstItem="60g-gf-WTW" firstAttribute="top" secondItem="jHm-4l-PQk" secondAttribute="bottom" constant="16" id="ijt-dK-VBh"/>
+                            <constraint firstItem="f5n-Eg-Qt8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="qir-Nl-pbB"/>
+                            <constraint firstItem="jHm-4l-PQk" firstAttribute="top" secondItem="z3M-CI-htm" secondAttribute="bottom" constant="16" id="thg-yO-Qf9"/>
+                            <constraint firstItem="X5h-Fj-gze" firstAttribute="top" secondItem="f5n-Eg-Qt8" secondAttribute="bottom" constant="16" id="tlf-l6-PJz"/>
+                            <constraint firstItem="z3M-CI-htm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wyU-u9-UBG"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="av4-sv-PGo" id="4Rw-Eh-G1L"/>
+                        <outlet property="labelSonuc" destination="f5n-Eg-Qt8" id="TxM-rV-HGl"/>
+                        <outlet property="labelSwitch" destination="60g-gf-WTW" id="W33-DQ-RYc"/>
+                        <outlet property="mSwitch" destination="jHm-4l-PQk" id="bBy-F2-3kO"/>
+                        <outlet property="textFieldGirdi" destination="X5h-Fj-gze" id="Uri-pf-csK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="54" y="4"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="mutlu-resim" width="13" height="13"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
