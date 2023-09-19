@@ -13,4 +13,4 @@ Bu repo, TechCareer iOS Bootcamp'i sırasında öğrendiğim konuları ve tamaml
 - ###### Birinci Ödev: Değişken oluşturma (ekran görüntüsü yok)
 - ###### İkinci Ödev: Fonksiyon oluşturma (ekran görüntüsü yok)
 - ###### Üçüncü Ödev: Tasarım oluşturma
-<img width="520" alt="Ekran Resmi 2023-09-16 12 57 55" src="https://github.com/kadirhankeles/techcareer-iOS-Bootcamp/assets/44638560/49b8ff43-3f58-4564-95bd-e4972089c8a0">
+<img width="240" height="320" alt="Ekran Resmi 2023-09-16 12 57 55" src="https://github.com/kadirhankeles/techcareer-iOS-Bootcamp/assets/44638560/49b8ff43-3f58-4564-95bd-e4972089c8a0">
