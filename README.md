@@ -1,4 +1,5 @@
 [![Techcareer](https://www.techcareer.net/assets/images/common/techcareer-logo-og-image.png)](https://www.techcareer.net/assets/images/common/techcareer-logo-og-image.png)
+
 Bu repo, TechCareer iOS Bootcamp'i sırasında öğrendiğim konuları ve tamamladığım ödevleri içeren bir kaynaktır. Aşağıda, repo içeriğini ve nasıl kullanılacağınızı anlatan bilgiler bulunmaktadır.
 
 
